@@ -74,7 +74,7 @@ Adlm Adobe Applications Desktop Documents Downloads Library MPLABXProjects Movie
 
 Write the command that you used below:
 ----------
-
+clear
 
 
 ==========
@@ -147,7 +147,7 @@ Use ls to verify that it downloaded.
 
 Write down the command that you used to download the file below.  Additionally, write the output of the command below.
 ----------
-
+curl -o 
 
 
 ==========
@@ -155,7 +155,7 @@ Write down the command that you used to download the file below.  Additionally, 
 
 Write down the command that you used to uncompress the file.
 ----------
-
+UNZIP
 
 
 ==========
@@ -216,6 +216,7 @@ Copy and paste the output below.
 
 Copy and paste the output below. (It should contain stuff.tar)
 ----------
+
 
 
 
