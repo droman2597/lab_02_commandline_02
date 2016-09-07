@@ -56,7 +56,7 @@ $ echo "good mornin'"
 
 Copy and paste the output below.
 ----------
-
+good mornin'
 
 
 ==========
@@ -66,7 +66,7 @@ $ echo *
 
 What happens?
 ----------
-
+Adlm Adobe Applications Desktop Documents Downloads Library MPLABXProjects Movies Music Pictures Public Things aardvark isus mtec1002 pymel.log xgen
 
 
 ==========
@@ -87,6 +87,12 @@ $ curl google.com
 
 Copy and paste the output below.
 ----------
+<HTML><HEAD><meta http-equiv="content-type" content="text/html;charset=utf-8">
+<TITLE>301 Moved</TITLE></HEAD><BODY>
+<H1>301 Moved</H1>
+The document has moved
+<A HREF="http://www.google.com/">here</A>.
+</BODY></HTML>
 
 
 
@@ -97,7 +103,7 @@ $ curl www.google.com
 
 Copy and paste the output below, but not the whole thing!  Just copy up to the part that has the title tags (<title>......</title>).
 ----------
-
+<!doctype html><html itemscope="" itemtype="http://schema.org/WebPage" lang="en"><head><meta content="Search the world's information, including webpages, images, videos and more. Google has many special features to help you find exactly what you're looking for." name="description"><meta content="noodp" name="robots"><meta content="text/html; charset=UTF-8" http-equiv="Content-Type"><meta content="/logos/doodles/2016/paralympics-2016-5977762578825216-hp.gif" itemprop="image"><meta content="Let the games begin! #GoogleDoodle" property="og:description"><meta content="http://www.google.com/logos/doodles/2016/paralympics-2016-5977762578825216-thp.png" property="og:image"><meta content="500" property="og:image:width"><meta content="200" property="og:image:height"><title>Google</title><script>
 
 
 ==========
@@ -105,7 +111,11 @@ Copy and paste the output below, but not the whole thing!  Just copy up to the p
 
 Write the command you used below.  Also copy and paste the output below.
 ----------
+curl -o filename.txt http://www.google.com
 
+ % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100 11028    0 11028    0     0   118k      0 --:--:-- --:--:-- --:--:--  123k
 
 
 ==========
@@ -113,7 +123,7 @@ Write the command you used below.  Also copy and paste the output below.
 
 Write the command you used to determine your directory.  Also, copy and paste the output below.
 ----------
-
+pwd
 
 
 ==========
