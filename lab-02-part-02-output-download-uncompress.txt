@@ -131,7 +131,7 @@ pwd
 
 Write the command that you used to change to your home directory.  If you were already in your home directory, write the command that you *would* have used to change to it!
 ----------
-
+cd ~
 
 
 ==========
@@ -147,7 +147,14 @@ Use ls to verify that it downloaded.
 
 Write down the command that you used to download the file below.  Additionally, write the output of the command below.
 ----------
-curl -o 
+curl -o
+Adlm			MPLABXProjects		filename.txt
+Adobe			Movies			isus
+Applications		Music			mtec1002
+Desktop			Pictures		mtec1002-lab-02
+Documents		Public			mtec1002-lab-02.zip
+Downloads		Things			pymel.log
+Library			aardvark		xgen
 
 
 ==========
@@ -174,6 +181,13 @@ We're going to mess around with archiving and compressing files.  We'll make a d
 
 Copy and paste the output below.
 ----------
+Adlm			MPLABXProjects		filename.txt
+Adobe			Movies			isus
+Applications		Music			mtec1002
+Desktop			Pictures		mtec1002-lab-02.zip
+Documents		Public			pymel.log
+Downloads		Things			stuff
+Library			aardvark		xgen
 
 
 
@@ -198,7 +212,7 @@ List the files in the directory you're currently in (which should be home).
 
 Copy and paste the output below.
 ----------
-
+a stuff
 
 
 ==========
@@ -208,7 +222,7 @@ $ tar -cvf stuff.tar stuff
 
 Copy and paste the output below.
 ----------
-
+a stuff
 
 
 ==========
@@ -216,7 +230,14 @@ Copy and paste the output below.
 
 Copy and paste the output below. (It should contain stuff.tar)
 ----------
-
+dlm			Movies			isus
+Adobe			Music			mtec1002
+Applications		Pictures		mtec1002-lab-02.zip
+Desktop			Public			pymel.log
+Documents		Things			stuff
+Downloads		aardvark		stuff.tar
+Library			filename.txt		xgen
+MPLABXProjects		hello.txt
 
 
 
@@ -227,6 +248,14 @@ gzip stuff.tar
 
 List your files again.... you should have a new file with a .gz extension.  Copy and paste the output of your this below.
 ----------
+dlm			Movies			isus
+Adobe			Music			mtec1002
+Applications		Pictures		mtec1002-lab-02.zip
+Desktop			Public			pymel.log
+Documents		Things			stuff
+Downloads		aardvark		stuff.tar.gz
+Library			filename.txt		xgen
+MPLABXProjects		hello.txt
 
 
 
